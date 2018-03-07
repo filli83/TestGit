@@ -10,14 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var clickMeButton: UIButton!
+    
     override func viewDidLoad() {
         print("Test Test")
-        print("Tappy tap tap!")
+        
 
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    @IBAction func ClickMeButton(_ sender: UIButton) {
+//        ViewController.color
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
