@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         print("Test Test")
+        print("Tappy tap tap!")
+
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
